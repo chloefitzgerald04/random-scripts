@@ -1,3 +1,9 @@
+# Register Enterprise APP
+
+Register-PnPEntraIDApp -ApplicationName PnPEntraSharepoint -Tenant "" -Store CurrentUser
+
+# Actually set the region
+
 $SiteURL = ""
 $LocaleId = 2057 # UK
 $TimeZoneId = 2 # London
